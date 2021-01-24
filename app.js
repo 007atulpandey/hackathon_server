@@ -23,6 +23,17 @@ const app = express();
 
 // app.use(bodyParser.urlencoded()); // x-www-form-urlencoded <form>
 app.use(bodyParser.json()); // application/json
+// add hr 
+
+// const hr = new Hr ({
+//   name : "nashacenter",
+//   email:"ayunashacenter@gmail.com",
+//   password: "12345678"
+
+// });
+// hr.save();
+
+
 
 
 app.use((req, res, next) => {
