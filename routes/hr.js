@@ -22,6 +22,7 @@ router.get('/:hrId/loan-reqs',isAuth,  hrController.getLoanReq);
 router.get('/:hrId/bonus-reqs',isAuth,  hrController.getLoanReq);
 //>>>>>>> master
 
+
 router.get('/:hrId/employees',isAuth,   hrController.getEmployees);
 router.get('/:hrId/employees/:empId',isAuth,   hrController.getEmployee);
 router.put('/:hrId/employees/:empId/edit',isAuth,   hrController.updateEmployeeDetails);
